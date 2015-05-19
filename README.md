@@ -9,6 +9,19 @@
 
 ## Usage
 
+Compares a model value with a property of a given object.
+
+```html
+<input
+  name="id"
+  ng-model="first.id"
+  eha-unique="second"
+  eha-unique-property="id"
+>
+```
+
+If `first.id === second.id`, the `id` input will be marked invalid.
+
 ## Installation
 
 Install with npm:
